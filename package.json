@@ -1,0 +1,26 @@
+{
+  "name": "action-setup-terrascan",
+  "version": "1.0.0",
+  "description": "GitHub Action for install terrascan cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcaldaralo/action-setup-terrascan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcaldaralo/action-setup-terrascan/issues"
+  },
+  "homepage": "https://github.com/vcaldaralo/action-setup-terrascan#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@actions/tool-cache": "^1.7.1",
+    "@octokit/rest": "^18.12.0"
+  }
+}
